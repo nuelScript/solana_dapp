@@ -1,5 +1,6 @@
 import { Details } from "@/components/details";
 import { Navbar } from "@/components/navbar";
+import { SwapToken } from "@/components/swap-tokens";
 import { WalletBalance } from "@/components/wallet-balance";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
           <Details />
           <div className="w-[1011px] h-[348px] flex gap-[20px]">
             <WalletBalance />
+            <SwapToken />
           </div>
         </div>
       </div>
