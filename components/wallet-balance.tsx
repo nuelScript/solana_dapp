@@ -26,7 +26,7 @@ export const WalletBalance = () => {
       </div>
       <Button className="w-[352px] h-[64px] rounded-[200px] px-[24px] py-[12px] bg-[#000AFF] flex items-center gap-2">
         {" "}
-        <div className="w-[40px] h-[40px] rounded-[900px] p-2 bg-[#0009E8]">
+        <div className="w-[40px] h-[40px] flex items-center justify-center gap-[10px] rounded-[900px] p-2 bg-[#0009E8]">
           <Image
             src="/connect.svg"
             alt="connect"
