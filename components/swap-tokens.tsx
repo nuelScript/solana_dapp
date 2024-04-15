@@ -1,7 +1,7 @@
 import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { Solana } from "iconsax-react";
+import { Input } from "@/components/ui/input";
 
 export const SwapToken = () => {
   return (
@@ -27,24 +27,22 @@ export const SwapToken = () => {
           Enter Address
         </h3>
         <div className="w-[543px] h-[60px] flex items-center gap-4">
-          {/* <input className="w-[291px] h-[56px] flex items-center gap-[10px] rounded-[90px] border p-4 border-[#A2A2A2]/70">
-            <Solana />
-          </input> */}
+          <Input className="w-[291px] h-[56px] flex items-center gap-[10px] rounded-[90px] border p-4 border-[#A2A2A2]/70" />
+          <Button className="w-[236px] h-[60px] flex items-center gap-[8px] rounded-[200px] py-3 px-4 bg-[#000AFF]">
+            <div className="w-[40px] h-[40px] flex items-center justify-center gap-[10px] rounded-[900px] p-2 bg-[#0009E8]">
+              <Image
+                src="/arrow-data.svg"
+                alt="connect"
+                className="fill"
+                width={24}
+                height={24}
+              />
+            </div>
+            <span className="w-[147px] h-[21px] font-semibold text-sm leading-[21px]">
+              Approve token swap
+            </span>
+          </Button>
         </div>
-        <Button className="w-[236px] h-[60px] flex items-center gap-[8px] rounded-[200px] py-3 px-4 bg-[#000AFF]">
-          <div className="w-[40px] h-[40px] flex items-center justify-center gap-[10px] rounded-[900px] p-2 bg-[#0009E8]">
-            <Image
-              src="/arrow-data.svg"
-              alt="connect"
-              className="fill"
-              width={24}
-              height={24}
-            />
-          </div>
-          <span className="w-[147px] h-[21px] font-semibold text-sm leading-[21px]">
-            Approve token swap
-          </span>
-        </Button>
       </div>
     </div>
   );
