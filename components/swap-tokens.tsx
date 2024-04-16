@@ -27,7 +27,10 @@ export const SwapToken = () => {
           Enter Address
         </h3>
         <div className="w-[543px] h-[60px] flex items-center gap-4">
-          <Input className="w-[291px] h-[56px] flex items-center gap-[10px] rounded-[90px] border p-4 border-[#A2A2A2]/70" />
+          <Input
+            placeholder="Enter/paste Solana address"
+            className="w-[291px] h-[56px] flex items-center gap-[10px] rounded-[90px] border text-white p-4 border-[#A2A2A2]/70 bg-transparent focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0"
+          />
           <Button className="w-[236px] h-[60px] flex items-center gap-[8px] rounded-[200px] py-3 px-4 bg-[#000AFF]">
             <div className="w-[40px] h-[40px] flex items-center justify-center gap-[10px] rounded-[900px] p-2 bg-[#0009E8]">
               <Image
